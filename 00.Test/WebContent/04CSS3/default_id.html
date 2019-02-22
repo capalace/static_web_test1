@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+	#header {		
+		width: 800px; margin: 0 auto;	/*auto: 남은 부분 균등 분할(중앙정렬)*/
+		background: red;
+	}
+	#wrap {
+		width: 800px; margin: 0 auto;
+		overflow: hidden;
+	}
+	#aside {
+		width: 200px; float: left;	/*float: 부모영역에 붙이기*/
+		background: blue;
+	}
+	#content {
+		width: 300px; float: right;
+		background: lightgreen;
+	}
+</style>
+</head>
+<body>
+	<div id="header">
+	<h1>#header 태그</h1>
+	</div>
+	<div id="wrap">				<!-- 부모 -->
+		<div id="aside">		<!-- 자식 -->
+			<h1>#aside 태그</h1>
+		</div>
+		<div id="content">
+			<h1>#content 태그</h1>
+		</div>
+	</div>
+	안녕하세요
+</body>
+</html>
